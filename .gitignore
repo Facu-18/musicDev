@@ -3,6 +3,14 @@ node_modules/
 
 # Música descargada — NO subir (peso y derechos de autor)
 
+descargas/
+*.aiff
+*.mp3
+*.wav
+*.m4a
+*.opus
+*.webm
+*.part
 
 # Logs y temporales
 npm-debug.log*
