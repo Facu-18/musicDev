@@ -1,0 +1,16 @@
+{
+  "name": "youtube-to-aiff",
+  "version": "1.0.0",
+  "description": "Descarga masiva de audio de YouTube y conversión a AIFF para consola/DJ",
+  "type": "module",
+  "bin": {
+    "yt2aiff": "descargar.js"
+  },
+  "scripts": {
+    "start": "node descargar.js"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "youtube-dl-exec": "^3.0.10"
+  }
+}
